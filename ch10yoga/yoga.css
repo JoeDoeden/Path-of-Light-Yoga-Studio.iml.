@@ -1,0 +1,120 @@
+* { box-sizing: border-box;
+}
+body {background: #40407A;
+    margin: 0;
+    color: black;
+    font-family: Verdana, Arial, sans-serif;
+    }
+#wrapper {padding: 2em;
+    background-color: #F5F5F5;
+    }
+header {background-image: url("sunrise.jpg");
+    background-size: 100%;
+    background-color: #40407A;
+    color: #FFFFFF;
+    margin-top: 50px;
+    font-size: 90%;
+    min-height: 200px;
+    }
+.home {height: 20vh;
+    padding-top: 2em;
+    padding-left: 10%;
+    }
+.content {height: 20vh;
+    padding-top: 2em;
+    padding-left: 10%;
+    }
+nav {text-align: right;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: auto;
+    }
+nav a {text-decoration: none;
+    }
+nav a:link { color: #3F2860;
+    }
+nav a:visited { color: #497777;
+    }
+nav a:hover { color: #A26100;
+    }
+nav ul { list-style-type: none;
+    margin: 0;
+    padding-right: 2em;
+    font-size: 1.2em;
+    }
+nav li { display: inline;
+    padding-left: 2em;
+    width: 30%;
+    }
+#mathero {height: 300px;
+    background-image: url("yogamat.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: block;
+    padding-bottom: 1em;
+    }
+#flow {display: block;
+    }
+#loungehero{height: 300px;
+    background-image: url("yogamat.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: block;
+    padding-bottom: 1em;
+    }
+section {padding-right: .5em;
+    padding-left: .5em;
+    }
+h2 {margin: 0;
+    }
+footer { font-size: small;
+    text-align: center;
+    clear: right;
+    }
+li,dd {font-size: 90%
+    }
+
+form { display: flex;
+    flex-flow: column nowrap;
+    }
+
+input, datalist textarea { margin-bottom: .5em;
+    }
+
+@media only screen and (min-width: 600px){nav ul,
+.flex-container{flex-wrap: nowrap;
+    justify-content: flex-end;
+
+}
+    form { width: 60%;
+    max-width: 40em;
+    grid-auto-rows: auto;
+
+    }
+input [type="submit"] { grid-column: 2; width: 9em;}
+    nav li {width: 7em;
+    }
+    section {padding-left: 2em;
+        padding-right: 2em;
+    }
+}
+@media screen and (min-width: 1024px){
+    header {font-size: 120%;
+    }
+    nav {font-weight: bold;}
+    .home { height: 50vh;
+    padding-top: 5em;
+    padding-left: 8em;
+    }
+    #wrapper {margin: auto;
+    width: 80%}
+
+}

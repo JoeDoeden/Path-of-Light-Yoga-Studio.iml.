@@ -1,0 +1,91 @@
+* { box-sizing: border-box;
+}
+body {background: #40407A;
+    max-width: 1600px;
+    min-width: 900px;
+    margin: 0;
+    color: black;
+    font-family: Verdana, Arial, sans-serif;
+    }
+#wrapper {margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding: 2em;
+    background-color: #F5F5F5;
+    }
+header {background-image: url("sunrise.jpg");
+    background-size: 100%;
+    background-color: #40407A;
+    color: #FFFFFF;
+    margin-top: 50px;
+    }
+.home {height: 50vh;
+    padding-top: 6em;
+    padding-left: 8em;
+    font-size: 120%;
+    min-height: 300px;
+    }
+.content {height: 250px;
+    padding-top: 2em;
+    padding-left: 8em;
+    padding-bottom: 2em;
+    }
+.onethird {float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+    }
+.onehalf {float: left;
+    width: 50%;
+    padding-left: 2em;
+    padding-right: 2em;
+    }
+nav {text-align: right;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-right: 1em;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    width: 100%;
+    height: 50px;
+    }
+nav a {text-decoration: none;
+    }
+nav a:link { color: #3F2860;
+    }
+nav a:visited { color: #497777;
+    }
+nav a:hover { color: #A26100;
+    }
+nav ul { list-style-type: none;
+    margin: 0;
+    padding-right: 2em;
+    font-size: 1.2em;
+    }
+nav li { display: inline;
+    padding-left: 2em;
+    }
+#mathero {height: 300px;
+    background-image: url("yogamat.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    clear: both;
+}
+#loungehero{height: 300px;
+    background-image: url("yogamat.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    clear: both;
+    }
+h2 {margin: 0;
+    }
+footer { font-size: small;
+    text-align: center;
+    clear: right;
+    }
+li,dd {font-size: 90%
+    }
